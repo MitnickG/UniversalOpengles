@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mitnick.zoomcoloruniversal.textureview.Main3ActivityForTextureView">
+    <TextureView
+        android:id="@+id/main3_tvId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/main3_zoomUpBtId"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="zoomup"
+        />
+    <Button
+        android:id="@+id/main3_zoomDownBtId"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="zoomdown"
+        android:layout_below="@id/main3_zoomUpBtId"
+        />
+</RelativeLayout>
